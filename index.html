@@ -13,62 +13,117 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <!-- WhatsApp: +55 61 9998-8403 → wa.me/556199988403 -->
-    <header>
-        <div class="container">
-            <div class="logo">KMD ASSESSORIA</div>
-        </div>
-    </header>
-
     <main>
-        <section class="hero" id="conteudo-principal" aria-labelledby="titulo-hero">
+        <section class="hero" aria-labelledby="hero-titulo">
             <div class="container">
-                <h1 id="titulo-hero">Pare de buscar clientes.<br>Comece a <span>atraí-los todos os dias.</span></h1>
-                <p>Transformamos o seu investimento em anúncios em vendas reais. Mais contatos qualificados no seu WhatsApp com estratégias de tráfego pago para negócios locais, saúde e infoprodutos.</p>
-                <a href="https://wa.me/556199988403?text=Ol%C3%A1%21%20Vim%20atrav%C3%A9s%20da%20p%C3%A1gina%20da%20KMD%20e%20gostaria%20de%20saber%20como%20atrair%20clientes%20mais%20qualificados%20para%20o%20meu%20neg%C3%B3cio." class="btn" target="_blank" rel="noopener noreferrer">Quero mais clientes no meu WhatsApp</a>
+                <div class="hero-bloco-texto">
+                    <h1 id="hero-titulo" class="hero-titulo">Komodo Assessoria</h1>
+                    <p class="hero-subtitulo">
+                        Cada estratégia é pensada para transformar atenção em vendas e crescimento em resultado.
+                    </p>
+                </div>
+
+                <div class="hero-imagem revelar-ao-exibir" data-revelar-ao-exibir aria-hidden="true">
+                    <img src="FundoKomodoDesk.png" alt="" />
+                </div>
             </div>
         </section>
 
-        <section class="sobre" aria-labelledby="titulo-sobre">
+        <section class="quote" aria-labelledby="quote-titulo">
             <div class="container">
-                <h2 id="titulo-sobre">Nós vendemos tráfego usando tráfego</h2>
-                <p>Não fazemos promessas vazias, aplicamos no seu negócio exatamente o que fazemos no nosso. Se você chegou até aqui, foi através do nosso funil.</p>
-                <p>Não tem vídeos ou imagens para anunciar? Fique tranquilo. Nós ajudamos na produção de criativos de alta qualidade, orientando a melhor forma de gravar com os equipamentos que você tem em mãos para garantir que seu anúncio não seja ignorado.</p>
+                <h2 id="quote-titulo" class="quote-titulo">Nós vendemos tráfego usando tráfego</h2>
+                <p class="quote-texto">
+                    Não fazemos promessas vazias, aplicamos no seu negócio exatamente o que fazemos no nosso.
+                    Se você chegou até aqui, foi através do nosso funil.
+                    Não tem vídeos ou imagens para anunciar? Fique tranquilo.
+                    Nós ajudamos na produção de criativos de alta qualidade, orientando a melhor forma de gravar com
+                    os equipamentos que você tem em mãos para garantir que seu anúncio não seja ignorado.
+                </p>
             </div>
         </section>
 
-        <section class="servicos" aria-labelledby="titulo-servicos">
+        <section class="features" aria-label="Principais estratégias">
             <div class="container">
-                <h2 id="titulo-servicos">Como aceleramos o seu negócio</h2>
-                <div class="grid-cards">
-                    <article class="card">
-                        <h3>1. Criação de campanhas</h3>
-                        <p>Estruturamos seus anúncios do zero no Facebook e Instagram Ads, focando no público certo e evitando desperdício de verba.</p>
+                <div class="features-cards">
+                    <article class="feature-card">
+                        <div class="feature-card-img" aria-hidden="true">
+                            <img src="Image.png" alt="" />
+                        </div>
+                        <div class="feature-card-texto">
+                            <h3 class="feature-card-titulo">Criação de campanhas</h3>
+                            <p class="feature-card-desc">
+                                Estruturamos seus anúncios do zero no Facebook e Instagram Ads, fazendo o filtro do público-alvo
+                                e evitando desperdício de verba.
+                            </p>
+                        </div>
                     </article>
-                    <article class="card">
-                        <h3>2. Otimização semanal</h3>
-                        <p>Acompanhamos e ajustamos os lances semanalmente para que você pague o menor valor possível por cada cliente interessado.</p>
-                    </article>
-                    <article class="card">
-                        <h3>3. Nichos especializados</h3>
-                        <p>Experiência prática nos setores de Saúde (Odonto, Fisio, Nutrição), Educação (Cursos, Mentorias) e Negócios Locais em geral.</p>
+
+                    <article class="feature-card">
+                        <div class="feature-card-img" aria-hidden="true">
+                            <img src="Image-1.png" alt="" />
+                        </div>
+                        <div class="feature-card-texto">
+                            <h3 class="feature-card-titulo">Otimização semanal</h3>
+                            <p class="feature-card-desc">
+                                Acompanhamos e ajustamos os lances semanalmente para que você pague o menor valor possível por
+                                cada cliente interessado.
+                            </p>
+                        </div>
                     </article>
                 </div>
             </div>
         </section>
-    </main>
 
-    <footer>
-        <div class="container">
-            <div class="footer-cta">
-                <h2>Pronto para escalar seu faturamento?</h2>
-                <a href="https://wa.me/556199988403?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20call%20r%C3%A1pida%20para%20entender%20como%20a%20KMD%20pode%20ajudar%20minha%20empresa." class="btn" target="_blank" rel="noopener noreferrer">Falar com um fundador agora</a>
+        <section class="cta" aria-labelledby="cta-titulo">
+            <div class="container cta-container">
+                <!-- Troque o href pelo perfil oficial no Instagram (ex.: https://www.instagram.com/seu_perfil/) -->
+                <a
+                    href="https://www.instagram.com/"
+                    class="cta-instagram"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram da Komodo Assessoria"
+                >
+                    <svg class="cta-instagram-icone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="gradienteInstagram" x1="0%" y1="100%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#f09433"/>
+                                <stop offset="25%" stop-color="#e6683c"/>
+                                <stop offset="50%" stop-color="#dc2743"/>
+                                <stop offset="75%" stop-color="#cc2366"/>
+                                <stop offset="100%" stop-color="#bc1888"/>
+                            </linearGradient>
+                        </defs>
+                        <path fill="url(#gradienteInstagram)" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+                <h2 id="cta-titulo" class="cta-titulo">
+                    Pronto para escalar<br>seu faturamento?
+                </h2>
+                <!-- WhatsApp: +55 61 9998-8403 → wa.me/556199988403 -->
+                <a
+                    href="https://wa.me/556199988403?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20call%20r%C3%A1pida%20para%20entender%20como%20a%20Komodo%20Assessoria%20pode%20ajudar%20minha%20empresa."
+                    class="cta-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Estou pronto!
+                </a>
             </div>
-            <p class="copyright">&copy; 2026 KMD Assessoria. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+        </section>
+    </main>
+    <script src="js/revelar-ao-exibir.js" defer></script>
+    <noscript>
+        <style>
+            .hero-imagem.revelar-ao-exibir {
+                opacity: 1;
+                transform: none;
+            }
+        </style>
+    </noscript>
 </body>
 </html>
